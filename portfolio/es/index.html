@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+
+<body>
+    <label class="switch">
+        <input type="checkbox" class="check" checked>
+        <span class="slider"></span>
+      </label>
+    <section id="inicio" class="inicio">
+
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <style>
+                    .fade-in-out {
+                        opacity: 0.5;
+                        transition: opacity 0.5s ease-in-out;
+
+                    }
+
+                    .fade-in-out:hover {
+                        opacity: 1.0;
+                    }
+                </style>
+                <div class="transicion">
+                    <style>
+                        .transicion {
+                            transform: rotate(5deg);
+                            transition: transform 0.5s;
+                        }
+
+                        .transicion:hover {
+                            transform: scale(1.3);
+                            z-index: 1;
+                            transition: transform 0.5s;
+                            -webkit-box-shadow: -7px 9px 22px 0px #49eec5bf;
+                            -moz-box-shadow: -7px 9px 22px 0px #49eec5bf;
+                            box-shadow: -7px 9px 22px 0px #49eec5bf;
+                        }
+                    </style>
+                    <img class="fade-in-out" src="/img/hero.png" alt="">
+                </div>
+            </div>
+            <h1>Miguel Lozada</h1>
+            <h2>Software Engineering Student</h2>
+            <div class="redes">
+                <a href="https://github.com/Lozada98" target="blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lozada98" target="blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://instagram.com/alejandroo__z" target="blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://join.skype.com/invite/pvkYa2XjDcj6" target="blank"><i
+                        class="fa-brands fa-skype"></i></a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>
+                About me
+            </h2>
+            <p><span>Hello, I'm Migue Lozada.</span> I am someone who seeks solutions to complex problems through
+                research and analysis. I enjoy learning and taking on personal challenges. I am currently starting my
+                career in Backend Programming studying software engineering, and the basic fundamentals of cybersecurity
+                in a self-taught way. Acting in the Python programming language and using frameworks such as FastAPI. I
+                am someone who seeks solutions to complex problems through research and analysis. I enjoy learning and
+                taking on personal challenges. I am currently starting my career in Backend Programming studying
+                software engineering, and the basic fundamentals of cybersecurity in a self-taught way. Acting in the
+                Python programming language and using frameworks such as FastAPI.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            09/May/1998
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            (11)917576724
+                        </li>
+                        <li>
+                            <strong>E-mail</strong> miguellozada2598@gmail.com
+                        </li>
+                        <li>
+                            <strong>Address</strong>
+                            Saint Paul, Brazil
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVEL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SPORT</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <p>Download resume</p>
+                    
+            <button class="Btn_es"><a href="/archivos/curriculo_espanol.pdf" download="Curriculum_Español(Miguel Lozada).pdf">
+                <i class="fa-solid fa-download"></i>
+                <p style="color: black;">Es</p>
+               
+           <button class="Btn_pt"><a href="/archivos/curriculo_portugues.pdf" download="Curriculum_Portugues(Miguel Lozada).pdf">
+                <i class="fa-solid fa-download"></i>    
+                <p style="color: black;">Pt</p>
+
+           <button class="Btn_in"><a href="/archivos/curriculo_ingles.pdf" download="Curriculum_Ingles(Miguel Lozada).pdf">
+                <i class="fa-solid fa-download"></i>
+                <p style="color: black;">En</p>
+               </a>
+               
+           </button>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>MySql</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>FastAPI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creativity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Education</h3>
+                    <div class="item izq">
+                        <h4>Software Engineering</h4>
+                        <span class="casa">Anhanguera</span>
+                        <span class="fecha">2023 - 2027</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Work experience</h3>
+                    <div class="item der">
+                        <h4>Systems Technician</h4>
+                        <span class="casa">Fractalia</span>
+                        <span class="fecha">2022 - Present</span>
+                        <details>
+                            <summary style="color: #49eec5bf">
+                                More details
+                            </summary>
+                            <br>
+                            <p>
+                                Monitoring actions of the systems and servers that maintain the infrastructure for the
+                                operation of the IOT system, monitoring the volumetry, effectiveness and failures of the
+                                connections between the operator's chips between the clients and the company providing
+                                the telecommunications service, at an international level. Incident management, Ticket
+                                resolution, VMware vSphere infrastructure analysis, VMware Vcenter, NetApp, Operational
+                                Services, Internet of Things, Power BI, Windows and Linux virtual servers, Switch and
+                                Router Administration
+                            </p>
+                        </details>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Technical service analyst</h4>
+                        <span class="casa">Sitel Group</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <details>
+                            <summary style="color: #49eec5bf">
+                                More details
+                            </summary>
+                            <br>
+                            <p>
+                                Bilingual technical support analyst for Dell end customers. Remote troubleshooting and
+                                online diagnosis of physical and system issues.
+                            </p>
+                        </details>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria"> 
+                <center>
+                    <div class="draw">
+                    <div class="proyecto">
+                        <img src="/img/XTerm.png" alt="">
+                        <div class="overlay">
+                            <h3>Section_start</h3>
+                            
+                            <a href="https://github.com/Lozada98/Section_start" target="blank" ><i class="fa-brands fa-github" style="color:black"></i></a>
+                            
+                            <p>Backend</p>
+                        </div>
+                    </div>
+                </div>
+            </center>
+            <br>
+                <center>
+                    <div class="draw">
+                        <div class="proyecto">
+                        <img src="/img/MySQL.webp" alt="">
+                        <div class="overlay">
+                            <h3>Project_Database_MySql </h3>
+                            <a href="https://github.com/Lozada98/Project_Database_MySql"target="blank"><i class="fa-brands fa-github" style="color:black"></i></a>
+                            <p>Backend</p>
+                        </div>
+                    </div>
+                </div>
+            </center> 
+            <br>
+            <center>
+                <div class="draw">
+                <div class="proyecto">
+                    <img src="/img/calculador.png" alt="">
+                    <div class="overlay">
+                        <h3>Calculator</h3>
+                        <a href="https://github.com/Lozada98/Calculator"target="blank"><i class="fa-brands fa-github" style="color:black"></i></a>
+                        <p>Fullstack</p>
+                    </div>
+                </div>
+            </div>
+        </center>
+        <br>
+                <center>
+                    <div class="draw">
+                        <div class="proyecto">
+                        <img src="/img/policiales.jpg" alt="">
+                            <div class="overlay">
+                                <h3>killers_biography_book</h3>
+                                    <a href="https://github.com/Lozada98/killers_biography_book"target="blank"><i class="fa-brands fa-github" style="color:black"></i></a>
+                                    <p>Frontend</p>
+                            </div>
+                        </div>
+                    </div>
+                </center> 
+                <br>  
+                <center>
+                    <div class="draw">
+                        <div class="proyecto">
+                        <img src="/img/ws.jpg" alt="">
+                            <div class="overlay">
+                                <h3>wason_website</h3>
+                                <a href="https://github.com/Lozada98/wason_website"target="blank"><i class="fa-brands fa-github" style="color:black"></i></a>
+                                <p>Frontend</p>
+                        </div>
+                    </div>
+                </div>
+            </center>
+            <br>
+                <center>
+                    <div class="draw">
+                        <div class="proyecto">
+                        <img src="/img/portafolio.jpg" alt="">
+                            <div class="overlay">
+                                <h3>Portafolio</h3>
+                                <a href="https://github.com/Lozada98/wason_website"target="blank"><i class="fa-brands fa-github" style="color:black"></i></a>
+                                <p>Frontend</p>
+                            </div>
+                        </div>
+                    </div>
+                </center>
+                <br>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://github.com/Lozada98" target="blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/lozada98" target="blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/alejandroo__z" target="blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/5511917576724"target="blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        // Aquí pegas tu código JavaScript
+        particlesJS("particles", {
+            // ... (tu configuración de particles.js)
+        });
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+            });
+        }
+
+        window.addEventListener('scroll', function () {
+            var scrollTopButton = document.querySelector('.scroll-top');
+            if (this.window.pageYOffset > 200) {
+                scrollTopButton.style.display = 'block';
+            } else {
+                scrollTopButton.style.display = 'none';
+            }
+        });
+    </script>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
